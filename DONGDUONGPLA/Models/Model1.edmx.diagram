@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="26ea9535932041278568519f0cf343ed" Name="Diagram1">
+        <EntityTypeShape EntityType="Hshop2023Model.BanBe" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hshop2023Model.ChiTietHD" Width="1.5" PointX="8.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hshop2023Model.ChuDe" Width="1.5" PointX="6" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hshop2023Model.GopY" Width="1.5" PointX="8.25" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hshop2023Model.HangHoa" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hshop2023Model.HoaDon" Width="1.5" PointX="6" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hshop2023Model.HoiDap" Width="1.5" PointX="6" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hshop2023Model.KhachHang" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hshop2023Model.Loai" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hshop2023Model.NhaCungCap" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hshop2023Model.NhanVien" Width="1.5" PointX="3.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hshop2023Model.PhanCong" Width="1.5" PointX="11" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hshop2023Model.PhanQuyen" Width="1.5" PointX="11" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hshop2023Model.PhongBan" Width="1.5" PointX="8.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hshop2023Model.TrangThai" Width="1.5" PointX="3.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hshop2023Model.TrangWeb" Width="1.5" PointX="8.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hshop2023Model.YeuThich" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hshop2023Model.vChiTietHoaDon" Width="1.5" PointX="7.75" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="Hshop2023Model.FK_BanBe_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="Hshop2023Model.FK_QuangBa_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="Hshop2023Model.FK_OrderDetails_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="Hshop2023Model.FK_OrderDetails_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="Hshop2023Model.FK_ChuDe_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="Hshop2023Model.FK_GopY_ChuDe" ManuallyRouted="false" />
+        <AssociationConnector Association="Hshop2023Model.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="Hshop2023Model.FK_Products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="Hshop2023Model.FK_YeuThich_HangHoa" ManuallyRouted="false" />
+        <AssociationConnector Association="Hshop2023Model.FK_HoaDon_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="Hshop2023Model.FK_HoaDon_TrangThai" ManuallyRouted="false" />
+        <AssociationConnector Association="Hshop2023Model.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="Hshop2023Model.FK_HoiDap_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="Hshop2023Model.FK_Favorites_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="Hshop2023Model.FK_PhanCong_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="Hshop2023Model.FK_PhanCong_PhongBan" ManuallyRouted="false" />
+        <AssociationConnector Association="Hshop2023Model.FK_PhanQuyen_PhongBan" ManuallyRouted="false" />
+        <AssociationConnector Association="Hshop2023Model.FK_PhanQuyen_TrangWeb" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -14,14 +14,21 @@ namespace DONGDUONGPLA.Controllers
         public ActionResult Index(string tenHH)
         {
             Hshop2023Entities1 db = new Hshop2023Entities1();
+            List<Loai> lsvLoai = db.Loais.ToList();
+            ViewBag.Loai = lsvLoai;
             List<HangHoa> lsv = db.HangHoas.Where(x=>x.TenHH.Contains(tenHH)).Take(8).ToList();
+            
             if (tenHH == null)
             {
-                lsv = db.HangHoas.Take(8).ToList();
+                lsv = db.HangHoas.ToList();
+                
             }
-            ViewBag.ListHangHoa = lsv;
+
+            ViewBag.HangHoa = lsv;
             ViewBag.HomePage = "active";
             ViewBag.ShopPage = "";
+            ViewBag.AboutPage = "";
+            ViewBag.ContactPage = "";
             return View();
         }
     }
